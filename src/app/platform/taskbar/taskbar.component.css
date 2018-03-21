@@ -1,0 +1,25 @@
+.taskbar{
+	height: 30px;
+	width: 100%;
+	bottom: 0;
+	position: fixed;
+	color: white;
+	line-height: 30px;
+	font-size: 14px;
+	background: rgb(255,255,255); /* Old browsers */
+	background: -moz-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(58,67,68,1) 61%, rgba(68,68,68,1) 64%, rgba(68,68,68,1) 64%, rgba(58,67,68,1) 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top, rgba(255,255,255,1) 0%,rgba(58,67,68,1) 61%,rgba(68,68,68,1) 64%,rgba(68,68,68,1) 64%,rgba(58,67,68,1) 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom, rgba(255,255,255,1) 0%,rgba(58,67,68,1) 61%,rgba(68,68,68,1) 64%,rgba(68,68,68,1) 64%,rgba(58,67,68,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#3a4344',GradientType=0 ); /* IE6-9 */
+}
+
+.start-menu{
+	height: 36px;
+	margin-left: 10px;
+	margin-top: -1px;
+	cursor: pointer;
+	border-radius: 50%;
+	-webkit-box-shadow: 0px 2px 14px 3px rgba(20,80,121,1);
+	-moz-box-shadow: 0px 2px 14px 3px rgba(20,80,121,1);
+	box-shadow: 0px 2px 14px 3px rgba(20,80,121,1);
+}

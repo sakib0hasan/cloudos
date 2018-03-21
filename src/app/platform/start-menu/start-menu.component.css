@@ -1,0 +1,7 @@
+.start-menu-container{
+	width: 378px;
+	height: 527px;
+	background: gray;
+	position: fixed;
+	bottom: 30px;
+}

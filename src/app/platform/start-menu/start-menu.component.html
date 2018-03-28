@@ -1,3 +1,10 @@
-<div class="start-menu-container">
-	start-menu works!
+<div *ngIf="isStartMenuOpen" class="start-menu-container">
+	<div class="left-app-list double-border all-round-edges">
+		<div class="left-app-list-item" *ngFor="let item of menuItems;">
+			{{item.name}}
+		</div>
+		<div class="all-programs">
+			All Programs
+		</div>
+	</div>
 </div>

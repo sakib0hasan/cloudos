@@ -1,15 +1,22 @@
-import { Component, OnInit } from '@angular/core';
+import {Component, OnInit} from '@angular/core';
 
 @Component({
-  selector: 'app-desktop',
-  templateUrl: './desktop.component.html',
-  styleUrls: ['./desktop.component.css']
+	selector: 'app-desktop',
+	templateUrl: './desktop.component.html',
+	styleUrls: ['./desktop.component.css']
 })
 export class DesktopComponent implements OnInit {
 
-  constructor() { }
+	startMenuState: boolean = true;
 
-  ngOnInit() {
-  }
+	constructor() {
+	}
+
+	ngOnInit() {
+	}
+
+	receiveMessage($event) {
+		this.startMenuState = $event;
+	}
 
 }

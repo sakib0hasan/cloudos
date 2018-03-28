@@ -11,6 +11,9 @@
 	background: -webkit-linear-gradient(top, rgba(255,255,255,1) 0%,rgba(58,67,68,1) 61%,rgba(68,68,68,1) 64%,rgba(68,68,68,1) 64%,rgba(58,67,68,1) 100%); /* Chrome10-25,Safari5.1-6 */
 	background: linear-gradient(to bottom, rgba(255,255,255,1) 0%,rgba(58,67,68,1) 61%,rgba(68,68,68,1) 64%,rgba(68,68,68,1) 64%,rgba(58,67,68,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#3a4344',GradientType=0 ); /* IE6-9 */
+	-webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,1);
+	-moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,1);
+	box-shadow: 0px 0px 5px 0px rgba(0,0,0,1);
 }
 
 .start-menu{

@@ -1,7 +1,39 @@
-.start-menu-container{
-	width: 378px;
-	height: 527px;
+.start-menu-container {
+	width: 376px;
+	height: 549px;
 	background: gray;
 	position: fixed;
 	bottom: 30px;
+	padding: 7px;
+	border-top-left-radius: 6px;
+	border-top-right-radius: 6px;
+	border: 1px solid rgba(0, 0, 0, 1);
+	-webkit-box-shadow: inset 0px 0px 5px 0px rgba(255,255,255,1);
+	-moz-box-shadow: inset 0px 0px 5px 0px rgba(255,255,255,1);
+	box-shadow: inset 0px 0px 5px 0px rgba(255,255,255,1);
+}
+
+.left-app-list {
+	background: white;
+	width: 233px;
+	height: 100%;
+}
+
+.left-app-list-item{
+	padding: 0 7px;
+	height: 37px;
+	line-height: 37px;
+	font-size: 14px;
+}
+
+.all-round-edges{
+	border-radius: 6px;
+
+}
+
+.double-border {
+	border: 1px solid black;
+	-webkit-box-shadow: 0px 0px 3px 0px rgba(255,255,255,1);
+	-moz-box-shadow: 0px 0px 3px 0px rgba(255,255,255,1);
+	box-shadow: 0px 0px 3px 0px rgba(255,255,255,1);
 }

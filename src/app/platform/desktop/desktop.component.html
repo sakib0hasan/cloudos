@@ -1,4 +1,4 @@
 <div class="desktop">
-	<app-start-menu></app-start-menu>
-	<app-taskbar></app-taskbar>
+	<app-start-menu [isStartMenuOpen]="startMenuState"></app-start-menu>
+	<app-taskbar (messageEvent)="receiveMessage($event)"></app-taskbar>
 </div>
